@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandip Shinde | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f0f2f5, #ffffff);
+            color: #212529;
+        }
+        
+        header {
+            background: linear-gradient(120deg, #0077b6, #00b4d8);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            animation: fadeIn 2s ease-in;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        
+        h2 {
+            color: #0077b6;
+            margin-top: 60px;
+            font-size: 2em;
+            border-bottom: 2px solid #caf0f8;
+            padding-bottom: 5px;
+        }
+        
+        ul {
+            list-style-type: square;
+            margin-left: 25px;
+        }
+        
+        .project {
+            background: #ffffff;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 12px;
+            border-left: 6px solid #00b4d8;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .project:hover {
+            transform: scale(1.02);
+        }
+        
+        footer {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sandip Shinde</h1>
+        <p>Computer Science Student | AI & Data Enthusiast</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a tech enthusiast currently pursuing my Master's in Computer Science. With a passion for Artificial Intelligence, Data Science, and impactful software, I thrive in learning environments and love building projects that solve real problems.</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, SQL, R Programming</li>
+            <li>Machine Learning, AI Automation, NLP, ETL</li>
+            <li>Statistics, Data Visualization</li>
+            <li>AWS (S3, Athena, EC2), Tableau, Power BI, dbt</li>
+        </ul>
+
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Bank Management & ATM Simulator</h3>
+            <p>A secure Java-based application simulating ATM and banking operations. Supports deposits, withdrawals, PIN changes, and more. Tested with over 1000 simulated transactions.</p>
+        </div>
+
+        <div class="project">
+            <h3>Smart Blind Stick</h3>
+            <p>An innovative sensor-integrated stick designed using Arduino to assist the visually impaired. Adjusted for real-world navigation and recognized with appreciation from ICCS.</p>
+        </div>
+
+        <div class="project">
+            <h3>Online Library Management System</h3>
+            <p>A .NET-based system for managing book records, user interactions, and loan tracking. Achieved a 40% operational boost during trials with a 90% satisfaction rating.</p>
+        </div>
+
+        <div class="project">
+            <h3>Music Store Database Analysis</h3>
+            <p>Performed data analysis using SQL on a music store's data. Extracted trends and patterns to improve marketing decisions and customer experience.</p>
+        </div>
+
+        <h2>Education</h2>
+        <ul>
+            <li>MSc CS – Indira College of Computer and Science, Pune (2024–2026)</li>
+            <li>BSc CS – Indira College of Commerce and Science (69.83%) (2021–2024)</li>
+            <li>HSC – Gokulnath Jr College, Parbhani (93%)</li>
+            <li>SSC – NVS Marathwada High School, Parbhani (74%)</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> sandesh380shinde@gmail.com</p>
+        <p><strong>Phone:</strong> +91-9356908112</p>
+        <p><strong>Location:</strong> Wakad, Pune</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Sandip Shinde. Built with 💙 and a passion for code.
+    </footer>
+</body>
+
+</html>
